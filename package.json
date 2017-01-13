@@ -2,6 +2,7 @@
   "name": "search-react-engine",
   "version": "1.0.0",
   "description": "search react engine",
+  "main": "dist/index.js",
   "scripts": {
     "test": "eslint lib/ spec/ && ./node_modules/karma/bin/karma start karma.conf.js",
     "watch-test": "./node_modules/karma/bin/karma start karma.conf.js --auto-watch --no-single-run",
@@ -10,7 +11,7 @@
     "start": "webpack-dev-server --inline --hot",
     "postinstall": "bower install"
   },
-  "author": "",
+  "author": "Palermo Deschamps",
   "license": "BSD",
   "keywords": [
     "react",

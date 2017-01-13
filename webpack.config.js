@@ -8,13 +8,13 @@ module.exports = {
 
   output: {
     path: path.join(__dirname),
-    filename: 'search-react-engine.js',
+    filename: 'index.js',
     libraryTarget: 'umd',
     library: 'SearchReactEngine'
   },
 
   externals: {
-   'react': 'var React',
+   'react': 'React',
    'react/addons': 'var React'
   },
 
